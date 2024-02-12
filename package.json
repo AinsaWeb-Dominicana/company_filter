@@ -1,0 +1,34 @@
+{
+  "name": "loopback-company-filter",
+  "version": "1.0.18",
+  "description": "company filter mixin for Loopback.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AinsaWeb-Dominicana/company_filter.git"
+  },
+  "keywords": [
+    "loopback",
+    "strongloop",
+    "mixin",
+    "softdelete",
+    "soft",
+    "delete"
+  ],
+  "author": "Ainsaweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AinsaWeb-Dominicana/company_filter.git/issues"
+  },
+  "homepage": "https://github.com/AinsaWeb-Dominicana/company_filter.git#readme",
+  "devDependencies": {
+    "loopback": "^3.2.0",
+    "loopback-boot": "^2.23.0",
+    "loopback-datasource-juggler": "^3.1.1",
+    "nyc": "latest",
+    "tap": "latest"
+  },
+  "scripts": {
+    "test": "nyc tap ./test/*.js"
+  }
+}
